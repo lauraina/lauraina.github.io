@@ -28,7 +28,6 @@ html{
 #title{
     font-family: 'Cutive Mono', monospace;
     font-family: 'Lobster Two', cursive;
-    font-size: 300%;
     padding:0%;
     margin:0%;
 }
@@ -42,7 +41,6 @@ html{
 }
 
 #menu{
-    font-size: 120%;
 }
 
 #menu_small, #menu_button{
@@ -62,7 +60,6 @@ html{
     padding-right: 10%;
     padding-left:10%;
     padding-top: 80pt;
-    font-size:110%;
 }
 
 
@@ -90,8 +87,7 @@ a:hover{
 }
 
 #image_home{
-    padding: 20pt;
-    float:left;
+    padding: 15pt;
 }
 #menu_large a:hover{
     font-weight: bold;
@@ -110,7 +106,6 @@ a:hover{
 }
 
 p.title_content{
-    font-size:120%;
     font-weight: bold;
 }
 
