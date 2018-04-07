@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Cutive+Mono|Bitter|Quicksand|Overpass+Mono|Lobster+Two|');
+
+
+
+body, h3{
+    background-color: #F7F7F7; 
+    font-family: 'Cutive Mono', monospace;;
+}
+
+html{
+    height:100%
+}
+#footer{
+    background-color: #FFF1F1;
+    position: fixed;
+    bottom: 0;
+    padding: 1%;
+    margin-left:10%;
+    margin-right: 10%;
+    width: 80%;
+    height:auto;
+}
+
+#footer, #header, #menu{
+    font-family: 'Cutive Mono', monospace;
+}
+
+#title{
+    font-family: 'Cutive Mono', monospace;
+    font-family: 'Lobster Two', cursive;
+    font-size: 300%;
+    padding:0%;
+    margin:0%;
+}
+#header{
+    position:fixed;
+    top: 0;
+    margin-left:10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: #EDF8F7 ;
+}
+
+#menu{
+    font-size: 120%;
+}
+
+#menu_small, #menu_button{
+    background-color: #EDF8F7;
+    padding: 1%;
+}
+
+#menu_small{
+    width:100%; 
+}
+
+
+#home-content{
+    margin: 2%;
+    height:auto;
+    margin-bottom: 80pt;
+    padding-right: 10%;
+    padding-left:10%;
+    padding-top: 80pt;
+    font-size:110%;
+}
+
+
+#menu_large a{
+    margin: 3%;
+}
+
+#menu_large{
+    padding-bottom: 1%;
+}
+
+a{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+#menu_large a, #menu_small a{
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+#image_home{
+    padding: 20pt;
+    float:left;
+}
+#menu_large a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+#curr_menu{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+#menu_small a:hover, #menu_small .curr_menu{
+    font-weight: bold;
+}
+
+p.title_content{
+    font-size:120%;
+    font-weight: bold;
+}
+
+.year_output ul li, .act_type ul li, {
+    margin-bottom:3%;
+}
