@@ -15,9 +15,9 @@ html{
     position: fixed;
     bottom: 0;
     padding: 1%;
-    margin-left:10%;
-    margin-right: 10%;
-    width: 80%;
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
     height:auto;
 }
 
@@ -34,9 +34,9 @@ html{
 #header{
     position:fixed;
     top: 0;
-    margin-left:10%;
-    margin-right: 10%;
-    width: 80%;
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
     background-color: #EDF8F7 ;
 }
 
@@ -54,12 +54,13 @@ html{
 
 
 #home-content{
-    margin: 2%;
     height:auto;
     margin-bottom: 80pt;
-    padding-right: 10%;
-    padding-left:10%;
-    padding-top: 80pt;
+    margin-left:7%;
+    margin-right: 7%;
+    padding: 0;
+    padding-top: 90pt;
+    font-size: 11pt;
 }
 
 
@@ -72,18 +73,18 @@ html{
 }
 
 a{
-    text-decoration: underline;
-    text-decoration-style: dotted;
+    text-decoration:none;
+    border-bottom: dotted 1pt;
+    padding-bottom: .2pt;
 }
 
 #menu_large a, #menu_small a{
     text-decoration: none;
+    border-bottom: none;
 }
 
 a:hover{
     font-weight: bold;
-    text-decoration: underline;
-    text-decoration-style: dotted;
 }
 
 #image_home{
@@ -91,8 +92,8 @@ a:hover{
 }
 #menu_large a:hover{
     font-weight: bold;
-    text-decoration: underline;
-    text-decoration-style: dotted;
+    border-bottom: dotted 2pt;
+    padding-bottom: .2pt;
 }
 
 #curr_menu{

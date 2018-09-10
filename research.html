@@ -4,107 +4,93 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!-->
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Personal website of Laura Aina">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Laura Aina - Research</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        
-    </head>
-    <body>
-        
-        <div class="w3-container w3-card" id="header">
-        <div class="w3-center"><p id="title" class="w3-xxxlarge">Laura Aina</p></div>
-        <div class="w3-center" id="menu">
-        <div id="menu_large" class="w3-hide-small w3-large">
-            <a class="w3-bar-item w3-mobile" href="index.html">Home</a>
-            <a class="w3-bar-item w3-mobile" href="research.html" id="curr_menu">Research outputs</a>
-            <a class="w3-bar-item w3-mobile" href="activities.html">Activities</a>
-<!--            <a class="w3-bar-item w3-mobile" href="#">Words I love</a>-->
-        </div>
-        <button onclick="dropdown('down')" class="w3-button w3-hover-light-grey w3-block w3-round-large  w3-xlarge w3-hide-large w3-hide-medium w3-center" id="menu_button"><i class="fa fa-chevron-circle-down"></i>
-        </button>
-            
-        <div id="menu_small" class="w3-hide w3-hide-medium w3-hide-large w3-large">
-        <button onclick="dropdown('up')" class="w3-button w3-hover-light-grey w3-block w3-round-large  w3-xlarge w3-hide-large w3-hide-medium w3-center" id="menu_button"><i class="fa fa-chevron-circle-up"></i>
-        </button>
-            <a class="w3-bar-item w3-mobile" href="index.html">Home</a>
-            <a class="w3-bar-item w3-mobile" href="research.html" id="curr_menu">Research outputs</a>
-            <a class="w3-bar-item w3-mobile" href="activities.html">Activities</a>
-<!--            <a class="w3-bar-item w3-mobile" href="#">Words I love</a>-->
-        </div>
-        
-        </div>
-        </div>
-        
-        
-        
-        <div class="w3-container" id="home-content" class="content w3-medium">        
-            
-            <div class="year_output">
-            <p class="title_content w3-large">2018 </p>
-            <ul>
-                <li> Laura Aina, Carina Silberer, Ionut-Teodor Sorodoc, Matthijs Westera and Gemma Boleda. <a href="https://arxiv.org/pdf/1805.05370.pdf">AMORE-UPF at SemEval-2018 Task 4: BiLSTM with Entity Library</a>. In Proc. SemEval 2018 Workshop on Semantic Evaluation, 2018.
-                </li>
-                </ul>
-            </div>
-            <div class="year_output">
-            <p class="title_content w3-large"> 2017 </p>
-            <ul>
-                <li> Laura Aina. <a href="http://www.illc.uva.nl/Research/Publications/Reports/MoL-2017-16.text.pdf">Not logical: A distributional semantic account of negated adjectives</a>. Master's thesis (supervised by Raquel Fernández and Raffaella Bernardi), Universiteit van Amsterdam, 2017.
-                </li>
-                
-                <li> Laura Aina, Natalia Philippova, Valentin Vogelmann, and Raquel Fernández. <a href="https://pdfs.semanticscholar.org/d7d0/b43fc0c9167b1216b60f4bbaecf1a21f5e86.pdf">Referring Expressions and Communicative Success in Task-oriented Dialogues</a>. In Proc. SEMDIAL 2017 (SaarDial) Workshop on the Semantics and Pragmatics of Dialogue. 2017.</li>
-                
-                <li> Marianna Bolognesi and Laura Aina. <a href="https://www.degruyter.com/view/j/cllt.ahead-of-print/cllt-2016-0061/cllt-2016-0061.xml">Similarity is closeness: Using distributional semantic spaces to model similarity in visual and linguistic metaphors</a>. Corpus Linguistics and Linguistic Theory, in press.
-                </li>
-            </ul>
-            </div>
-        </div>
-    
-        
-        
-        
-        
-        
-        
-        <div class="w3-container  w3-card w3-medium" id="footer">
-        <div class="w3-row">
-        <div class="w3-half w3-mobile w3-center"><i class="fa fa-at"></i> laura dot aina at upf dot edu </div>
-		<div class="w3-half w3-mobile w3-center"><i class="fa fa-map-marker"></i> Office: Roc Boronat, 138 - Barcelona; Room: 52.631 
-        </div>
-        </div>
-        </div>
-        
-        
-            <script>
-//function w3_menusmall() {
-//  document.getElementById("menu_small").style.display = "block";
-//}
-//function w3_close() {
-//  document.getElementById("menu_small").style.display = "none";
-//}
-                
-            function dropdown(dir) {
-                var x = document.getElementById("menu_small");
-                if (x.className.indexOf("w3-show") == -1) {
-                    x.className += " w3-show";
-                } else { 
-                    x.className = x.className.replace(" w3-show", "");
-                }
-                if (dir == "down") {
-                    document.getElementById("menu_button").style.display = "none";
-                } else {
-                    document.getElementById("menu_button").style.display = "block";
-                }
-                
-}
-</script>
-        
-    </body>
 
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Personal website of Laura Aina">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Laura Aina - Research outputs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+    
+<body>     
+    <!-- HEADER !-->
+    <div class="w3-container w3-card" id="header">
+        <!-- Title !-->
+        <div class="w3-center"><p id="title" class="w3-xxxlarge">Laura Aina</p></div>
+        <!-- Menu !-->
+        <div class="w3-center" id="menu">
+            <!-- Menu big screens !-->
+            <div id="menu_large" class="w3-hide-small w3-large">
+                <a class="w3-bar-item w3-mobile" href="index.html">Home</a>
+                <a class="w3-bar-item w3-mobile" href="research.html" id="curr_menu" >Research outputs</a>
+                <a class="w3-bar-item w3-mobile" href="activities.html">Activities</a>
+            </div>
+            <!-- Menu small screens !-->
+            <button onclick="dropdown('down')" class="w3-button w3-hover-light-grey w3-block w3-round-large  w3-xlarge w3-hide-large w3-hide-medium w3-center" id="menu_button"><i class="fa fa-chevron-circle-down"></i>
+            </button>
+            <div id="menu_small" class="w3-hide w3-hide-medium w3-hide-large w3-large">
+                <button onclick="dropdown('up')" class="w3-button w3-hover-light-grey w3-block w3-round-large  w3-xlarge w3-hide-large w3-hide-medium w3-center" id="menu_button"><i class="fa fa-chevron-circle-up"></i>
+                </button>
+                    <a class="w3-bar-item w3-mobile" href="index.html">Home</a>
+                    <a class="w3-bar-item w3-mobile" href="research.html" id="curr_menu">Research outputs</a>
+                    <a class="w3-bar-item w3-mobile" href="activities.html"> Activities</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- CONTENT !-->
+    <div class="w3-container" id="home-content" class="content w3-medium">        
+    <!-- Info sorted by year_output!-->
+        <div class="year_output">
+            <p class="title_content w3-large">2018 </p>
+            <table class= 'w3-table'>
+                <tr> 
+                    <td><small>[Paper]</small> </td>
+                    <td> Kristina Gulordava, Laura Aina and Gemma Boleda. How to represent a word and predict it, too: improving tied architectures for language modelling. To appear in Proc. EMNLP 2018 Conference on Empirical Methods in Natural Language Processing, 2018. </td>
+                </tr>
+                <tr> 
+                    <td><small>[Presentation]</small> </td>
+                    <td> Laura Aina. Lexical modulation via distributional
+    semantics: a general framework for modeling word meaning in context. Upcoming at 26th Annual Meeting of the European Society for Philosophy and Psychology, 2018. </td>
+                </tr>
+                <tr> 
+                    <td><small>[Paper & presentation]</small> </td>
+                    <td> Laura Aina, Carina Silberer, Ionut-Teodor Sorodoc, Matthijs Westera and Gemma Boleda. <a href="https://arxiv.org/pdf/1805.05370.pdf">AMORE-UPF at SemEval-2018 Task 4: BiLSTM with Entity Library</a>. In Proc. SemEval 2018 Workshop on Semantic Evaluation, 2018. </td>
+                </tr>
+            </table>
+        </div>
+        <div class="year_output">
+            <p class="title_content w3-large"> 2017 </p>
+            <table class= 'w3-table'>
+                <tr> 
+                    <td><small>[MSc Thesis]</small> </td>
+                    <td>Laura Aina. <a href="http://www.illc.uva.nl/Research/Publications/Reports/MoL-2017-16.text.pdf">Not logical: A distributional semantic account of negated adjectives</a>. Master thesis (supervised by Raquel Fernández and Raffaella Bernardi), Universiteit van Amsterdam, 2017. </td>
+                </tr>
+                <tr> 
+                    <td><small>[Paper & presentation]</small> </td>
+                    <td>Laura Aina, Natalia Philippova, Valentin Vogelmann, and Raquel Fernández. <a href="https://pdfs.semanticscholar.org/d7d0/b43fc0c9167b1216b60f4bbaecf1a21f5e86.pdf">Referring Expressions and Communicative Success in Task-oriented Dialogues</a>. In Proc. SEMDIAL 2017 (SaarDial) Workshop on the Semantics and Pragmatics of Dialogue. 2017.</td>
+                </tr>
+                <tr> 
+                    <td><small>[Paper]</small> </td>
+                    <td> Marianna Bolognesi and Laura Aina. <a href="https://www.degruyter.com/view/j/cllt.ahead-of-print/cllt-2016-0061/cllt-2016-0061.xml">Similarity is closeness: Using distributional semantic spaces to model similarity in visual and linguistic metaphors</a>. Corpus Linguistics and Linguistic Theory, in press.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+        
+        
+    <!-- FOOTER !-->
+    <div class="w3-container  w3-card w3-medium" id="footer">
+        <div class="w3-row">
+            <div class="w3-half w3-mobile w3-center"><i class="fa fa-at"></i> laura dot aina at upf dot edu </div>
+            <div class="w3-half w3-mobile w3-center"><i class="fa fa-map-marker"></i> Office: Roc Boronat, 138 - Barcelona; Room: 52.631 </div>
+        </div>
+    </div>  
+    
+</body>
 </html>
