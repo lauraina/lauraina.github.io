@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script type="text/javascript" src="js/script.js"></script>
+   <!-- <script type="text/javascript" src="js/script.js"></script> !-->
 </head>
     
 <body>     
@@ -31,10 +31,10 @@
                 <a class="w3-bar-item w3-mobile" href="activities.html">Activities</a>
             </div>
             <!-- Menu small screens !-->
-            <button onclick="dropdown('down')" class="w3-button w3-hover-light-grey w3-block w3-round-large  w3-xlarge w3-hide-large w3-hide-medium w3-center" id="menu_button"><i class="fa fa-chevron-circle-down"></i>
+            <button onclick ="dropdown('down')" class="w3-button w3-hover-light-grey w3-block w3-round-large  w3-xlarge w3-hide-large w3-hide-medium w3-center" id="menu_button"><i class="fa fa-chevron-circle-down"></i>
             </button>
             <div id="menu_small" class="w3-hide w3-hide-medium w3-hide-large w3-large">
-                <button onclick="dropdown('up')" class="w3-button w3-hover-light-grey w3-block w3-round-large  w3-xlarge w3-hide-large w3-hide-medium w3-center" id="menu_button"><i class="fa fa-chevron-circle-up"></i>
+                <button onclick ="dropdown('up')" class="w3-button w3-hover-light-grey w3-block w3-round-large  w3-xlarge w3-hide-large w3-hide-medium w3-center" id="menu_button"><i class="fa fa-chevron-circle-up"></i>
                 </button>
                     <a class="w3-bar-item w3-mobile" href="index.html">Home</a>
                     <a class="w3-bar-item w3-mobile" href="research.html">Research outputs</a>
@@ -67,5 +67,21 @@
         </div>
     </div>  
     
+	<script>
+	function dropdown(dir) {
+		var x = document.getElementById("menu_small");
+		if (x.className.indexOf("w3-show") == -1) {
+		    x.className += " w3-show";
+		} else { 
+		    x.className = x.className.replace(" w3-show", "");
+		}
+		if (dir == "down") {
+		    document.getElementById("menu_button").style.display = "none";
+		} else {
+		    document.getElementById("menu_button").style.display = "block";
+		}             
+	}
+</script>
+
 </body>
 </html>

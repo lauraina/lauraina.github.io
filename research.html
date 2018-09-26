@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script type="text/javascript" src="js/script.js"></script>
+    <!-- <script type="text/javascript" src="js/script.js"></script> !-->
 </head>
     
 <body>     
@@ -92,5 +92,20 @@
         </div>
     </div>  
     
+	<script>
+	function dropdown(dir) {
+		var x = document.getElementById("menu_small");
+		if (x.className.indexOf("w3-show") == -1) {
+		    x.className += " w3-show";
+		} else { 
+		    x.className = x.className.replace(" w3-show", "");
+		}
+		if (dir == "down") {
+		    document.getElementById("menu_button").style.display = "none";
+		} else {
+		    document.getElementById("menu_button").style.display = "block";
+		}             
+	}
+</script>
 </body>
 </html>
